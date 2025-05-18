@@ -1,0 +1,2 @@
+deb [trusted=yes signed-by=/usr/share/keyrings/q4a-deb_multimedia.gpg] http://www.deb-multimedia.org bullseye main non-free
+## deb [trusted=yes signed-by=/usr/share/keyrings/q4a-deb_multimedia.gpg] http://www.deb-multimedia.org bullseye-backports main non-free

@@ -1,0 +1,51 @@
+#!/bin/sh
+
+# MYAPPS_PID="$( pgrep -n appsetup2 )"
+# if [ -z "$MYAPPS_PID" ] ; then
+#   MYAPPS_PID="$( pgrep -n qsinst )"
+# fi
+
+if [ "$APPSETUP2_NONITERACTIVE" = "1" ] ; then
+  exit 0
+fi
+
+# #----------------------------------------------------------------------------------------------
+# # deb-multimedia.org temporarily unavailable, so cancel
+# #----------------------------------------------------------------------------------------------
+# if [ ! -f "/tmp/epc.stp" ]  ; then
+#   kdialog --title "Proprietary codecs" --caption "Warning - Repository unavailable" --icon "package_settings" --sorry "<p>Sorry, Debian multimedia repository www.deb-multimedia.org is not available at the moment, please try codecs setup again in a few hours. Canceling setup.</p><p><br></p>"
+#   kill $MYAPPS_PID
+#   exit 10
+# fi
+
+#----------------------------------------------------------------------------------------------
+# check for raspberry pi board revision, must be 2 or higher
+#----------------------------------------------------------------------------------------------
+#todo: later - make detection by 'q4hw-info --machtype'
+#  ...
+#fi
+# if [ "$QAPTDISTR" = "raspbianx" ] ; then
+#   MEMTOTAL=$( q4hw-info --memtotal )
+#   echo "Total memory: $MEMTOTAL"
+#   if [ "$MEMTOTAL" -lt "600" ] ; then
+#     kdialog --title "Proprietary codecs" --caption "Warning - Unsupported hardware !" --icon "package_settings" --sorry "<p>Multimedia codecs would be unusable on Raspberry Pi board revision lesser then 3. Canceling setup.</p><p><br></p>"
+#     kill $MYAPPS_PID
+#     exit 10
+#   fi
+# fi
+# if [ "$QAPTDISTR" = "raspbianx" ] ; then
+#   kdialog --title "Proprietary codecs" --caption "Warning - Unsupported hardware !" --icon "package_settings" --sorry "<p>Multimedia codecs are intended to be used within \"x86\" architecture only, it would be unusable on the Raspberry Pi board. Canceling setup.</p><p><br></p>"
+#   kill $MYAPPS_PID
+#   exit 10
+# fi
+
+#----------------------------------------------------------------------------------------------
+# # set extrapackages
+#----------------------------------------------------------------------------------------------
+# if [ $( dpkg --print-architecture ) = "i386" ] ; then
+#   CODECSI="w32codecs"
+# fi
+# if [ $( dpkg --print-architecture ) = "amd64" ] ; then
+#   CODECSI="w64codecs"
+# fi
+# sed -i -e "s/[[:space:]]*extra_packages=.*/extra_packages=$CODECSI/" config_1_rc
