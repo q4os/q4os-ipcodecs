@@ -1,0 +1,6 @@
+q4os-ipcodecs (4.4-a1) UNRELEASED; urgency=medium
+
+  * Initial commit
+  * Add Gstreamer packages to recommends
+
+ -- Q4OS Team <devteam@q4os.org>  Sun, 18 May 2025 13:33:36 +0200
