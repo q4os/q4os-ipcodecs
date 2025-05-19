@@ -19,7 +19,7 @@ DSTR_EDTN="trixie;bookworm;bullseye;noble;jammy;focal"
 # SETUP_TYPE="2"
 INCLUDE_DHDEB="1"
 DEBPCKS_DIR="extra_debs/"
-# CREATE_ESH="1"
+CREATE_ESH="1"
 # OUT_DIR="../setup_out"
 
 #-.deb entries
