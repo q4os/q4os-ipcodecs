@@ -1,4 +1,4 @@
-q4os-ipcodecs (4.4-a1) UNRELEASED; urgency=medium
+q4os-ipcodecs (4.4-a0.wk1) UNRELEASED; urgency=medium
 
   * Initial commit
   * Add Gstreamer packages to recommends

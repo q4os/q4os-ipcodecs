@@ -1,0 +1,5 @@
+#!/bin/sh
+
+if [ -f "/usr/share/apps/q4os_system/bin/dvdpkg_proc.sh" ] ; then
+  dash /usr/share/apps/q4os_system/bin/dvdpkg_proc.sh
+fi
