@@ -1,6 +1,14 @@
-q4os-ipcodecs (4.4-a0.wk1) UNRELEASED; urgency=medium
+q4os-ipcodecs (4.4-a1) UNRELEASED; urgency=medium
 
   * Initial commit
   * Add Gstreamer packages to recommends
+  * Move to debhelper build framework
+  * Remove useless chunks
+  * Update .gitignore
+  * Add Trixie support
+  * Remove .gitignore
+  * Remove support for Buster
+  * Config installer to create .esh package
+  * Add script to process libdvd-pkg package
 
- -- Q4OS Team <devteam@q4os.org>  Sun, 18 May 2025 13:33:36 +0200
+ -- Q4OS Team <devteam@q4os.org>  Wed, 21 May 2025 22:03:39 +0200
