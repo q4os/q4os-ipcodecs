@@ -9,7 +9,7 @@ Package: q4os-ipcodecs
 Architecture: all
 Pre-Depends: deb-multimedia-keyring
 Depends: q4os-desktop (>= 4.0)
-Recommends: va-driver-all, ffmpeg, twolame, libavcodec-extra, libaacs0, libfaad2, libfaac0, libmp3lame0, libdvdnav4, libdvdread8t64 | libdvdread8 | libdvdread7 | libdvdread4, libbluray2, libcrystalhd3, libopencore-amrwb0, libopencore-amrnb0, libtxc-dxtn0, libdvdcss2, w64codecs:amd64, w32codecs:i386, ubuntu-restricted-addons, gstreamer1.0-x, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav
+Recommends: va-driver-all, ffmpeg, twolame, libaacs0, libfaad2, libfaac0, libmp3lame0, libdvdnav4, libdvdread8t64 | libdvdread8 | libdvdread7 | libdvdread4, libbluray2, libcrystalhd3, libopencore-amrwb0, libopencore-amrnb0, libtxc-dxtn0, libdvdcss2, w64codecs:amd64, w32codecs:i386, ubuntu-restricted-addons, gstreamer1.0-x, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav
 Conflicts: ipcodecs-q4
 Provides:
 Replaces:
