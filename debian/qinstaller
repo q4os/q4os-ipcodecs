@@ -8,7 +8,7 @@ APPNAME_DESC="Multimedia Codecs"
 
 #-.qsi entries
 # INST_DEBS="q4os-ipcodecs"
-PK_VERS="4.4-a2"
+PK_VERS="4.5-a1"
 Q4VER_MIN="4.0"
 # Q4VER_MAX="5.9999"
 # DSTR_BASE="debian"
